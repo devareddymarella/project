@@ -1,0 +1,63 @@
+*{
+    font-family: sans-serif;
+}
+body{
+    
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    animation: animation 10s ease-in infinite;
+    
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+    row-gap: 50px;
+    float:right;
+    align-items: center;
+    padding: 30px 30px;
+
+}
+nav button{
+    height: fit-content;
+    width: fit-content;
+    background-color: red;
+    color: white;
+    font-size: 20px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    height: 35px;
+    transition: background 0.5s;
+    /* text-decoration: none; */
+}
+button:hover{
+    background: transparent;
+    border: 2px solid white;
+}
+@keyframes animation{
+    0%{
+        background-image: url("./netflix.jpg");
+    }
+    20%{
+        background-image: url("./stranger.jpg");
+    }
+    40%{
+        background-image: url("./13.jpg");
+    }
+    60%{
+        background-image: url("./death.jpg");
+    }
+    80%{
+        background-image: url("./peaky.jpg");
+
+    }
+    100%{
+        background-image: url("./netflix.jpg");
+    }
+
+}
+a{
+    text-decoration: none;
+}

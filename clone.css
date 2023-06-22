@@ -1,0 +1,213 @@
+*{
+  font-family: sans-serif;
+}
+body{
+  background: black;
+  color: white;
+}
+.main{
+  max-width: 100%;
+  height:100vh;
+  background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)) ,url("./1.jpg");
+  background-size: cover;
+  background-position: center;
+  padding :10px 8%;
+  position: relative;
+  margin-bottom: 30px;
+}
+nav{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 0;
+} 
+.logo{
+  width: 150px;
+  cursor: pointer;
+}
+nav button{
+  border:0;
+  outline: 0;
+  background:red;
+  color:#fff;
+  padding: 7px 20px;
+  font-size: 20px;
+  border-radius: 05px;
+  margin-left: 10px;
+  cursor: pointer;
+  transition: background 0.5s;
+}
+.header{
+  position:absolute;
+  top:50%;
+  left:50%;
+  transform: translate(-50%,-50%);
+  margin-top: 100px;
+}
+.header h1{
+  font-size: 60px;
+  line-height: 70px;
+  font-weight: 600;
+  max-width: 650px;
+}
+.header h3{
+  font-weight: 400;
+  margin-bottom: 20px;
+
+}
+.email{
+  background:rgba(0,0,0,10%);
+  border-radius:  4px;
+  display: flex;
+  align-items:center ;
+  margin-top: 30px;
+  overflow: hidden;
+}
+.email input{
+  flex: 1;
+  border:solid 1px white;
+  border-radius: 10px;
+  margin-left :20px; 
+  background: rgba(0,0,0,10%);
+  height: 50px;
+}
+.email button{
+  background:red;
+  border: 0;
+  font-size: 16px;
+  color: white;
+  cursor: pointer;
+  padding: 15px 30px;
+  border-radius: 10px;
+  margin-left: 20px;
+  transition: background 0.5s;
+
+}
+.advantages
+{
+  padding: 50px 12%;
+  font-size: 20px;
+}
+.row{
+  display: flex;
+  width: 100%;
+  align-items: center;
+  padding: 50px 0;
+}
+.text{
+  margin-bottom: 20px;
+}
+.images{
+  margin-bottom: 20px;
+}
+.images{ 
+  width: 90%;
+  margin: auto;
+}
+.advantages h2{
+  font-size: 50px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+.faq{
+  padding:10px 12%;
+  text-align: center;
+  font-size: 18px;
+}
+.faq h2{
+  font-weight: 500;
+  font-size: 40px;
+}
+
+.questions{
+  display: flex;
+  flex-direction: column;
+  flex-basis: 40%;
+  align-items: center;
+}
+
+.questions li{
+  list-style: none;
+  padding: 20px 30px;
+  margin: 5px;
+  font-size: 30px;
+  background-color: #302f2f;
+  color: whitesmoke;
+  text-align: left;
+  width: 700px;
+}
+.questions li:hover{
+  /* color: white; */
+  background-color: rgb(133, 128, 128);
+  cursor: pointer;
+  transform:translateY(-7px) ;
+}
+.faq .email{
+  max-width: 600px;
+  margin:20px auto 60px;
+}
+.faq p{
+  font-size: 30px;
+}
+.final{
+  max-width: 70%;
+  margin: auto;
+  overflow: auto;
+}
+.final a{
+  color: gray;
+  font-size: 20px;
+  text-decoration: none;
+
+}
+.final a:hover{
+  color: white;
+  text-decoration: underline;
+}
+.final .final-1{
+  display: flex;
+  justify-content: space-between;
+    
+}
+  
+.final li{   
+  list-style: none;
+  text-decoration: none;
+  padding: 10px;
+}
+hr{
+  color: rgb(30, 30, 30);
+  height: 10px;
+  border: #303030;
+  opacity: 50%;
+  background-color: dimgray;
+  max-width: 6000px;  
+}
+.hr-1{
+  height: 10px;
+  color: rgb(57, 55, 55);
+  width: 148%;
+  margin-left: -360px;
+}
+.images{
+  background-image: url("./tv.png");
+  background-repeat: none;
+  background-size: 100% 100%;
+  height:420px ;
+  width: 800px;
+  margin: auto;
+  margin-bottom: 20px;
+  position: relative;  
+}
+.video-2{
+  width: 20px;
+  margin-left: 85px;
+  margin-top: -390px;
+  margin-bottom: 80px;
+}
+button:hover{
+  background: transparent;
+  border: 2px solid white;
+    
+}
+  
